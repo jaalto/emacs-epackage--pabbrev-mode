@@ -1,0 +1,34 @@
+Package: pabbrev-mode
+Section: extensions
+License: GPL-2+
+Depends: emacs (>= 22)
+Status: stable
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Phillip Lord <p.lord@russet.org.uk>
+Upstream-Bugs:
+Vcs-Type: http
+Vcs-Url: http://www.emacswiki.org/emacs/download/pabbrev.el
+Vcs-Browser:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/PredictiveAbbreviation
+Commentary: pabbrev.el
+Description: mode for TAB key to complete items (predictive abbreviation)
+ Provide a abbreviation expansion for Emacs. Its fairly similar to
+ "dabbrev" expansion, which works based on the contents of the current
+ buffer (or other buffers).
+ .
+ Predictive abbreviation expansion works based on the previously written
+ text. Unlike dynamic abbreviation, the text is analysed during idle time,
+ while Emacs is doing nothing else. `pabbrev-mode' tells you when this is
+ happening. If this irritates you unset `pabbrev-idle-timer-verbose'. The
+ advantage of this is that its very quick to look up potential
+ abbreviations, which means that the can be constantly displayed, without
+ interfering with the user as they type. Certainly it works for me, on an
+ old laptop, typing as fast as I can (which is fast, since I learnt to type
+ with four fingers).
+ .
+ The main entry point is through the minor mode `pabbrev-mode'. There is
+ also a global minor mode, called `global-pabbrev-mode', which does the
+ same in all appropriate buffers.
