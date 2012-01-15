@@ -25,4 +25,4 @@
 (autoload 'pabbrev-debug-clear-hashes           "pabbrev" "" t)
 (autoload 'pabbrev-debug-clear-all-hashes       "pabbrev" "" t)
 (autoload 'pabbrev-debug-print-hashes           "pabbrev" "" t)
-(provide 'pabbrev-mode-epkg-install)
+(provide 'pabbrev-mode-epackage-install)

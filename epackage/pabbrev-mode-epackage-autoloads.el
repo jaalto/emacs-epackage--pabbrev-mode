@@ -74,4 +74,4 @@
 (autoload 'pabbrev-debug-clear-all-hashes       "pabbrev" "" t)
 (autoload 'pabbrev-debug-print-hashes           "pabbrev" "" t)
 (autoload 'pabbrev-debug-print-hash             "pabbrev" "" nil)
-(provide 'pabbrev-mode-epkg-autoloads)
+(provide 'pabbrev-mode-epackage-autoloads)
